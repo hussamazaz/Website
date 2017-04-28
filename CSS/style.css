@@ -1,0 +1,35 @@
+/* botton on the index page */
+.indexbott {
+	display: block;
+	width: 170px;
+	background-color: #033;
+	color: #FFF;
+	font-size: 20px;
+	text-decoration: none;
+	height: 30px;
+	padding-top: 12px;
+	border-radius: 7px;
+}
+
+.indexbott:hover {
+	background-color: #06C;
+}
+
+.homebot{
+	display:block;
+	width:170px;
+	background:#036;
+	color:#FFF;
+	font:20px;
+	text-decoration:none;
+	border:#003 solid 3px;
+	border-radius:7px;
+	text-align:center;
+	margin:5px;
+}
+.homebot:hover{
+	background:#FF0;
+	color:#000;
+	width:200px;
+	height:30px;
+}
