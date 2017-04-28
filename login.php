@@ -14,7 +14,7 @@
   <tr>
     <td align="center"><a href="login.php" class="indexbott" >Login</a></td>
     <td width="550" rowspan="5" valign="top">
-    <form action="#" method="post" enctype="multipart/form-data" >
+    <form action="php/login.php" method="post" enctype="multipart/form-data" >
     <table width="100%" border="0" cellspacing="5" cellpadding="0">
         <tr>
           <td colspan="2" align="center"><h1>Log In</h1></td>
@@ -27,6 +27,9 @@
           <td>Password:</td>
           <td><input type="password" name="pass" id="pass"/></td>
         </tr>
+        <tr>
+          <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Submit" /></td>
+          </tr>
       </table>
       </form>
     </td>
