@@ -14,10 +14,21 @@
   </tr>
   <tr>
     <td align="center">&nbsp;</td>
-    <td rowspan="5" width="550"> hi every one  </td>
+    <td rowspan="5" width="550"> 
+    <div>
+Head office: JEDDAH - Hira Street -- mail box: 21121 Postal code:1222</div>
+
+Customer Service Contact Details:
+		<div>Telephone: 966012348533 Email: Mr.7usoom@hotmail.com </div>
+		<div>Telephone-2: 966502572023 Email-2: ananqadi@gamil.com</div>
+
+If you need to contact us for support.</div>  </td>
   </tr>
   <tr>
     <td align="center"><a href="login.php" class="indexbott" >Login</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="regest.php" class="indexbott" >Regestration</a></td>
   </tr>
   <tr>
     <td align="center"><a href="aboutus.php" class="indexbott">About Us</a></td>

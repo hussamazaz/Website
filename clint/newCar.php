@@ -12,7 +12,7 @@
     <td colspan="2" align="center">Add New Car Page</td>
   </tr>
   <tr>
-    <td><a href="#" class="homebot">logout</a></td>
+    <td><a href="PHP/logoutuser.php" class="homebot">logout</a></td>
     <td width="550" rowspan="6" valign="top">
     <form action="PHP/newCar.php" method="post" enctype="multipart/form-data"><table width="100%" border="0" cellspacing="5" cellpadding="0">
       <tr>

@@ -20,6 +20,9 @@
     <td align="center"><a href="login.php" class="indexbott" >Login</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="regest.php" class="indexbott" >Regestration</a></td>
+  </tr>
+  <tr>
     <td align="center"><a href="aboutus.php" class="indexbott">About Us</a></td>
   </tr>
   <tr>

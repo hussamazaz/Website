@@ -14,10 +14,16 @@
   </tr>
   <tr>
     <td align="center">&nbsp;</td>
-    <td rowspan="5" width="550"> hi every one  </td>
+    <td rowspan="5" width="550"> We pride ourselves on providing the best service with the
+best prices with the best Modern technology.You can be assured
+that all our service are reserv and check or repair and then 
+follow it through the site with ease. </td>
   </tr>
   <tr>
     <td align="center"><a href="login.php" class="indexbott" >Login</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="regest.php" class="indexbott" >Regestration</a></td>
   </tr>
   <tr>
     <td align="center"><a href="aboutus.php" class="indexbott">About Us</a></td>

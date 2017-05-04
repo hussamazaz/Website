@@ -1,6 +1,9 @@
 <?
+include_once("../php/connect.php");
 session_start();
 $uid=$_SESSION["userid"];
+$q1=mysql_query("SELECT * from users where user_id='$uid'");
+$udata=mysql_fetch_array($q1);	
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,8 +19,8 @@ $uid=$_SESSION["userid"];
     <td colspan="2" align="center">Home Page</td>
   </tr>
   <tr>
-    <td><a href="#" class="homebot">logout</a></td>
-    <td width="550" rowspan="6"><h1><? echo $uid; ?> </h1></td>
+    <td><a href="PHP/logoutuser.php" class="homebot">logout</a></td>
+    <td width="550" rowspan="6"><h1><? echo "Hi, "; echo $udata["user_name"]; ?> </h1></td>
   </tr>
   <tr>
     <td><a href="newCar.php" class="homebot">new car </a></td>

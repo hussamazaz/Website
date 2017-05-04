@@ -9,9 +9,16 @@ $eachdata=mysql_fetch_array($query);
 $re=mysql_num_rows($query);
 
 if ($re == 1){
+	switch ($eachdata["user_type"]){
+		case 1:
 	$_SESSION["userid"] = $eachdata["user_id"];
-	
-header("location:../clint/home.php");
+	header("location:../clint/home.php");
+	break;
+	case 2:
+			$_SESSION["userid"] = $eachdata["user_id"];
+	header("location:../admin/AdminHome.php");
+	break;
+	}
 }
 else{?>
 <h1> Wrong UserName or Password </h1> 

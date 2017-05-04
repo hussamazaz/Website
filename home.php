@@ -12,7 +12,7 @@
     <td colspan="2" align="center">Home Page</td>
   </tr>
   <tr>
-    <td><a href="#" class="homebot">logout</a></td>
+    <td><a href="php/logout.php" class="homebot">logout</a></td>
     <td width="550" rowspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td>id</td>
